@@ -1,21 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Roboto:wght@100;400&display=swap" rel="stylesheet">  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Roboto:wght@100;400&display=swap" rel="stylesheet">  
 
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    <link ref = "stylesheet" href="styles.css">
-    <title> Dignans Catering Businesses | Gallery </title>
+  <link rel = "stylesheet" href="style.css">
+  <title> Dignans Catering Businesses | Gallery </title>
+    
+
+
 </head>
 <body>
     
+  <!-- topnav, banner and picture-->
+
+  <div class="banner">
+    <img src="banner2.jpg" alt="Dignans banner image of delicious food">
+  </div>
+
+  <div class="topnav" id="myTopnav">
+    <div class="navLinks">
+    <a href="#home.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="gallery.html"  class="active">Gallery</a>
+    <a href="contact.html">Contact Page</a>
+    <a href="http://eepurl.com/in8IPY">Register</a>
+    <a href="order.html">Order</a>
+    </div>
     
-    <script src="script.js"></script>
+    
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <!-- topnav, banner and picture-->
+    
+  <script src="script.js"></script>
+
+    <!-- -	The gallery page will display pictures of the café and food.
+          -	The gallery will show videos of services.-->
+
+  <!-- Below here is the responsive image gallery-->
+
+  <h1>Gallery</h1>
+
+  <h2>Resize the browser window to see the effect.</h2>
+  
+  <div class="row">
+      <div class="col"><img src="salad.jpeg"></div>
+      <div class="col"><img src="chicken-yakitori.jpeg"></div>
+      <div class="col"><img src="cheese-burger.jpeg"></div>
+  </div>
+  
+  <div class="row">
+    <div class="col"><img src="group-catering.mp4"></div>
+    <div class="col"><img src="buffet-dishes.mp4"></div>
+    <div class="col"><img src="big-dish-catering.mp4"></div>
+</div>
+
+  <!-- This is the end of the respinsive immage gallery-->
+
 </body>
 </html>
