@@ -20,37 +20,90 @@
 <body>
 
 
-      <!-- topnav, banner and picture-->
+  <!-- topnav, banner and picture-->
 
 
-      <div class="banner">
-        <img src="banner2.jpg" alt="Dignans banner image of delicious food">
+  <div class="banner">
+    <img src="banner2.jpg" alt="Dignans banner image of delicious food">
+  </div>
+
+  <div class="topnav" id="myTopnav">
+    <div class="navLinks">
+    <a href="home.html" class="active">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact Page</a>
+    <a href="register.html">Register</a>
+    <a href="order.html">Order</a>
+  </div>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <!-- end of topnav, banner and picture-->
+
+  <!-- -	The home page will show the opening hours.
+      -	Will show special offers.
+      -	The home page will display menus of food.
+      -	The home page will show a menu print button.
+      -	The home page will show customer reviews.-->
+
+      <div class="container">
+        <div class="element1">
+          <div class="box-section">
+          
+            <h2>Opening Times</h2>
+            <p>
+              Monday to Friday: 12:00am to 11:00pm <br>
+              Saturday: 10:00am to 3:00pm <br>
+              Sunday: Closed <br>
+              <br>
+              We also offer catering for special events, <br> 
+              please call us on +447549112233 to book
+            </p>
+          </div>
+        </div>
+
+        <div class="element2">
+          <div>
+            <div class="currentSpecial"> 
+              <img src="special-offer.png" alt="Pizza buy 1, get 1 free"> 
+            </div>
+          </div>
+        </div>
       </div>
+      
 
-      <div class="topnav" id="myTopnav">
-        <div class="navLinks">
-        <a href="home.html" class="active">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="contact.html">Contact Page</a>
-        <a href="register.html">Register</a>
-        <a href="order.html">Order</a>
+
+
+
+        <div class="home-h3">
+        <h3> Check out our reviews! </h3>
+        </div>
+
+        <div class="carousel">
+          <div class="carousel-container">
+            <div class="carousel-item">
+              <p>"Dignans catering is amazing! Their food was delicious, beautifully presented, and catered to everyone's dietary requirements. Their staff was friendly and professional, making the whole experience a pleasure."</p>
+            </div>
+            <div class="carousel-item">
+              <p>"Dignans is outstanding! Their food is fresh, flavorful, and beautifully presented. Their team was attentive and accommodating, ensuring that every guest was satisfied. Thank you Dignans for making our event a huge success!"</p>
+            </div>
+            <div class="carousel-item">
+              <p>"Dignans is the best in the business! The food was exquisite, and our guests couldn't stop raving about it. The team at Dignans went above and beyond to make sure everything ran smoothly, and their attention to detail was impeccable."
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+    </div> <!-- end of 2 colum layout -->
 
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-      <!-- end of topnav, banner and picture-->
-    
-      <!-- -	The home page will show the opening hours.
-          -	Will show special offers.
-          -	The home page will display menus of food.
-          -	The home page will show a menu print button.
-          -	The home page will show customer reviews.-->
+      <div class="download"> <a href="menu.pdf" download> <h4>Download our menu</h4> </a> </div>
+      <iframe src="Dignans Menu.pdf"></iframe>
 
-          <a href="menu.pdf" download> Download our menu </a>
+      <div class="download"> <a href="menu.pdf" download> <h4>Download our menu </h4>  </a> </div>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
