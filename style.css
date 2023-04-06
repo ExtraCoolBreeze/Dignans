@@ -128,8 +128,8 @@ menu{
   width: 100%;
   height: auto;
 }
-
-iframe {
+/*-------------------------------------------------------------------------*/
+.iframeHome {
   display: block;
   margin: 0 auto;
   width: 550px;
@@ -230,4 +230,79 @@ scale: 70%;
 
 .element2 {
   flex: 1;
+}
+
+.box-section2 {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  margin-left: 10px;
+  margin-right: 500px;
+  margin-top: 50px;
+}
+
+/* About style */
+
+.containerAbout {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  flex-basis: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.item img {
+  max-width: 90%;
+  height: auto;
+}
+.item .text {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.item .text h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+.item .text p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+/* Contact Page Style */
+.containerContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+.text-box {
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 500px;
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 36px;
+  margin-top: 0;
+}
+.text-box p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.box-sectionContact {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  margin-top: 400px;
+}
+
+.iframeContact{
+  display: block;
+  margin: 0 auto;
 }
