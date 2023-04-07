@@ -19,3 +19,21 @@ carouselContainer.appendChild(firstItem.cloneNode(true));
 window.onload = function() {
   carouselContainer.style.animationPlayState = 'running';
 };
+
+/*Print Button Code below
+
+const printButton = document.getElementById('print-button');
+const pdfContainer = document.getElementById('pdf-container');
+
+printButton.addEventListener('click', () => {
+  window.print();
+});
+
+function printPDF() {
+  let originalContents = document.body.innerHTML;
+  let printContents = pdfContainer.innerHTML;
+  document.body.innerHTML = printContents;
+  window.print();
+  document.body.innerHTML = originalContents;
+}
+*/

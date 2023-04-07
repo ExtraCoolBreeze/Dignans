@@ -299,10 +299,42 @@ scale: 70%;
   border: 1px solid #ddd;
   padding: 20px;
   margin: 20px 0;
-  margin-top: 400px;
+  position: static;
+  margin-bottom: -400px;
 }
 
 .iframeContact{
   display: block;
   margin: 0 auto;
+ position: fixed;
+}
+
+.iframeRegister {
+  display: block;
+  margin: 0 auto;
+  width: 550px;
+  height: 900px;
+}
+
+.iframeOrder {
+  display: block;
+  margin: 0 auto;
+  width: 550px;
+  height: 900px;
+}
+
+button {
+  background-color: #7e0800;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 650px;
+}
+
+.download{
+margin-left: 40%;
+
 }
